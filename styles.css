@@ -1,0 +1,43 @@
+body {
+    background: radial-gradient(lightblue, beige);
+}
+
+/*Set up table*/
+td, th { 
+    padding: 0 2em 1em 0;
+    border-bottom: 1pt solid darkgrey;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+td.distance, td.button {
+    text-align: center;
+    padding: inherit;
+}
+th {
+    text-align: left;
+    padding: inherit;
+}
+#top_spots > tbody > tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/*Styles for rest of page*/
+button {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 1em;
+}
+p.sorted {
+    text-align: right;
+}
+#locError {
+    color: red;
+    margin-bottom: 1em;
+}
+
+/*Set Map height explicitly so that it will display*/
+#map {
+    height: 400px;
+    width: 100%;
+}
