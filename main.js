@@ -1,4 +1,4 @@
-//let currLocation = [32.7157, -117.1611];  //default to San Diego
+ //let currLocation = [32.7157, -117.1611];  //default to San Diego
 let topSpots;
 document.getElementById('sorted').onchange = handleSort;
 getLocationAndLoadData();
