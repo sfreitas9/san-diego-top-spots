@@ -9,7 +9,7 @@ npm install
 ```
 static .
 ```
-Then access the app in your browser at http://localhost:8080.
+Then access the app in your browser at http://127.0.0.1:8080/.
 ---
 ## To test:
 ```
